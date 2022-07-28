@@ -10,3 +10,6 @@ for i in range(101):
 import math
 math.sin()
 
+import platform
+
+platform.win32_ver()

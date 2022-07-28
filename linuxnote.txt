@@ -1,0 +1,153 @@
+
+vim /etc/sysconfig/network-scripts/ifcfg-ens33
+service network restart
+
+
+
+vim /etc/sudoers
+root ALL=(ALL) ALL 已有行 
+username ALL=(ALL) ALL 新增行
+ls -l /etc/sudoers 查看文件权限 roo
+chmod -v u-w /etc/sudoers 修改文件权限为只读
+
+
+vim .bashrc
+PS1='\[\e[32;40m\][\[\e[31;40m\]\u\[\e[36;40m\]@\[\e[35;40m\]\h \[\e[33;40m\]\w \[\e[32;40m\]]$ '
+
+
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35;01m\]\u\[\033[00;00;01m\]@\[\033[01;35;01m\]\h\[\033[00;31;01m\]:\[\033[00;00;01m\]\w \[\033[01;32;01m\]\$ \[\033[01;01;01m\]'
+
+source .bashrc
+
+
+
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
+rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
+yum --disablerepo="*" --enablerepo="elrepo-kernel" list available
+yum --enablerepo=elrepo-kernel install kernel-ml
+vim /etc/default/grub 并设置 GRUB_DEFAULT=0
+grub2-mkconfig -o /boot/grub2/grub.cfg
+
+
+export PATH=/usr/local/vim/bin:$PATH
+
+
+
+whereis sudoers
+b.强调内容 修改文件权限，一般文件默认为只读。 
+ls -l /etc/sudoers 查看文件权限 
+chmod -v u+w /etc/sudoers 修改文件权限为可编辑
+
+
+
+
+pip3 install  -i https://pypi.tuna.tsinghua.edu.cn/simple bpython
+
+ln -s /usr/local/python3/bin/python3 /usr/bin/python3
+ln -s /usr/local/python3/bin/ipython3 /usr/bin/ipython3
+ln -s /usr/local/python3/bin/pip3 /usr/bin/pip3
+
+
+systemctl get-default
+
+systemctl multi-user.target
+systemctl runlevel3.target
+systemctl set-default multi-user.target
+
+ln -sf /lib/systemd/system/runlevel3.target /etc/systemd/system/default.target
+ln -sf /lib/systemd/system/rpythounlevel5.target /etc/systemd/system/default.target
+
+
+
+
+vmhgfs-fuse .host:/ /mnt/  -o nonempty -o allow_other
+
+
+
+
+vim8
+ ./configure --with-features=huge --enable-pythoninterp --enable-python3interp --enable-multibyte --enable-cscope --with-python-config-dir=/usr/lib64/python2.7/config/   --with-python3-config-dir=/usr/local/python3/lib/python3.6/config-3.6m-x86_64-linux-gnu/  --prefix=/usr/local/vim/
+
+make && make install
+
+vim --version
+
+
+python2 pip 
+yum -y install epel-release
+yum -y install python-pip
+
+pip2 install neovim
+pip3 install neovim
+reboot
+
+
+
+
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+
+curl -sLf https://spacevim.org/install.sh | bash
+
+vim ~/.SpaceVim.d/init.toml 
+
+nvim  no vim 
+
+
+relativenumber = false
+
+[[layers]]
+  name = "lang#python"
+  python_file_head = [
+      '#!/usr/bin/env python',
+      '# -*- coding: utf-8 -*-',
+      '',
+      ''
+  ]
+
+
+SPUpdate
+
+SPDebugInfo!
+
+
+
+[[custom_plugins]]
+  name = "deoplete-plugins/deoplete-jedi"    OK     jedi update
+
+
+
+
+[[custom_plugins]]
+  name ="davidhalter/jedi-vim"
+
+
+[[custom_plugins]]
+  name ="Shougo/deoplete.nvim"
+
+
+deoplete-plugins/deoplete-jedi
+
+lua:   sudo apt install vim-nox  
+
+
+关闭用户图形界面，使用tty登录。
+
+　　sudo systemctl set-default multi-user.target
+　　sudo reboot
+
+开启用户图形界面。
+
+　　sudo systemctl set-default graphical.target
+　　sudo reboot
+
+
+git config --global --list
+git config --global url."https://github.com.cnpmjs.org/".insteadOf https://github.com/
+
+
+ipython 7.19.0 无法使用jedi 0.18.0，降低版本即可
+pip install jedi==0.17
+pip install parso==0.7
+
+
+13564864286 vivian 何 上海浦东

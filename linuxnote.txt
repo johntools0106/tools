@@ -5,15 +5,16 @@ service network restart
 
 
 vim /etc/sudoers
-root ALL=(ALL) ALL ÒÑÓĞĞĞ 
-username ALL=(ALL) ALL ĞÂÔöĞĞ
-ls -l /etc/sudoers ²é¿´ÎÄ¼şÈ¨ÏŞ roo
-chmod -v u-w /etc/sudoers ĞŞ¸ÄÎÄ¼şÈ¨ÏŞÎªÖ»¶Á
+root ALL=(ALL) ALL å·²æœ‰è¡Œ 
+username ALL=(ALL) ALL æ–°å¢è¡Œ
+ls -l /etc/sudoers æŸ¥çœ‹æ–‡ä»¶æƒé™ roo
+chmod -v u-w /etc/sudoers ä¿®æ”¹æ–‡ä»¶æƒé™ä¸ºåªè¯»
 
 
 vim .bashrc
 PS1='\[\e[32;40m\][\[\e[31;40m\]\u\[\e[36;40m\]@\[\e[35;40m\]\h \[\e[33;40m\]\w \[\e[32;40m\]]$ '
 
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;36;40m\]\u\[\033[01;33;40m\]@\[\033[01;31;40m\]\h\[\033[00;31;40m\]:\[\033[01;37;40m\]\w \[\033[01;37;40m\]\$ \[\033[01;32;40m\]'   
 
 PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35;01m\]\u\[\033[00;00;01m\]@\[\033[01;35;01m\]\h\[\033[00;31;01m\]:\[\033[00;00;01m\]\w \[\033[01;32;01m\]\$ \[\033[01;01;01m\]'
 
@@ -25,7 +26,7 @@ rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 yum --disablerepo="*" --enablerepo="elrepo-kernel" list available
 yum --enablerepo=elrepo-kernel install kernel-ml
-vim /etc/default/grub ²¢ÉèÖÃ GRUB_DEFAULT=0
+vim /etc/default/grub å¹¶è®¾ç½® GRUB_DEFAULT=0
 grub2-mkconfig -o /boot/grub2/grub.cfg
 
 
@@ -34,9 +35,9 @@ export PATH=/usr/local/vim/bin:$PATH
 
 
 whereis sudoers
-b.Ç¿µ÷ÄÚÈİ ĞŞ¸ÄÎÄ¼şÈ¨ÏŞ£¬Ò»°ãÎÄ¼şÄ¬ÈÏÎªÖ»¶Á¡£ 
-ls -l /etc/sudoers ²é¿´ÎÄ¼şÈ¨ÏŞ 
-chmod -v u+w /etc/sudoers ĞŞ¸ÄÎÄ¼şÈ¨ÏŞÎª¿É±à¼­
+b.å¼ºè°ƒå†…å®¹ ä¿®æ”¹æ–‡ä»¶æƒé™ï¼Œä¸€èˆ¬æ–‡ä»¶é»˜è®¤ä¸ºåªè¯»ã€‚ 
+ls -l /etc/sudoers æŸ¥çœ‹æ–‡ä»¶æƒé™ 
+chmod -v u+w /etc/sudoers ä¿®æ”¹æ–‡ä»¶æƒé™ä¸ºå¯ç¼–è¾‘
 
 
 
@@ -130,24 +131,24 @@ deoplete-plugins/deoplete-jedi
 lua:   sudo apt install vim-nox  
 
 
-¹Ø±ÕÓÃ»§Í¼ĞÎ½çÃæ£¬Ê¹ÓÃttyµÇÂ¼¡£
+å…³é—­ç”¨æˆ·å›¾å½¢ç•Œé¢ï¼Œä½¿ç”¨ttyç™»å½•ã€‚
 
-¡¡¡¡sudo systemctl set-default multi-user.target
-¡¡¡¡sudo reboot
+ã€€ã€€sudo systemctl set-default multi-user.target
+ã€€ã€€sudo reboot
 
-¿ªÆôÓÃ»§Í¼ĞÎ½çÃæ¡£
+å¼€å¯ç”¨æˆ·å›¾å½¢ç•Œé¢ã€‚
 
-¡¡¡¡sudo systemctl set-default graphical.target
-¡¡¡¡sudo reboot
+ã€€ã€€sudo systemctl set-default graphical.target
+ã€€ã€€sudo reboot
 
 
 git config --global --list
 git config --global url."https://github.com.cnpmjs.org/".insteadOf https://github.com/
 
 
-ipython 7.19.0 ÎŞ·¨Ê¹ÓÃjedi 0.18.0£¬½µµÍ°æ±¾¼´¿É
+ipython 7.19.0 æ— æ³•ä½¿ç”¨jedi 0.18.0ï¼Œé™ä½ç‰ˆæœ¬å³å¯
 pip install jedi==0.17
 pip install parso==0.7
 
 
-13564864286 vivian ºÎ ÉÏº£ÆÖ¶«
+13564864286 vivian ä½• ä¸Šæµ·æµ¦ä¸œ

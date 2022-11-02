@@ -110,6 +110,8 @@ SPUpdate
 
 SPDebugInfo!
 
+UpdateRemotePlugins
+
 
 
 [[custom_plugins]]

@@ -15,8 +15,3 @@ import platform
 platform.win32_ver()
 
 
-
-import requests
-
-
-requests.get()

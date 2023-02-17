@@ -14,4 +14,3 @@ import platform
 
 platform.win32_ver()
 
-ok

@@ -1,0 +1,139 @@
+githubnote@yandex.com    https://gitee.com/   https://github.com/
+git 147258qw!
+
+mrneleussur@usa.com  159753QW0037ASqw! payoneer Copy and save the following recovery code to a safe place:  64JLBQML
+
+crystalcpp@protonmail.com  159753qwAS! 147258qwAS! PAYPAL
+
+wget http://www.alidns.com/public/soft/SetAliDNS.sh -O SetAliDNS.sh %26%26 chmod +x SetAliDNS.sh %26%26 sudo ./SetAliDNS.sh
+sudo ./SetAliDNS.sh restore
+
+
+
+
+
+workbytime@tutanota.com 159753qw 
+
+e20b
+c701
+659b
+3877
+f8cf
+6ff6
+e822
+0819
+045a
+b916
+2a11
+25d9
+7b43
+dfab
+f95b
+d481
+
+
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple jedi --upgrade
+pip3 install --user jedi --upgrade
+
+
+https://www.notion.so/invite/0ffa6ab24a11bfed23bc80e85a7e86751368f47b
+
+curl -sLf https://spacevim.org/install.sh | bash -s -- --uninstall
+
+curl -sLf https://spacevim.org/install.sh | bash
+
+vim ~/.SpaceVim.d/init.toml 
+
+nvim  no vim 
+
+
+relativenumber = false
+
+[[layers]]
+  name = "lang#python"
+  python_file_head = [
+      '#!/usr/bin/env python',
+      '# -*- coding: utf-8 -*-',
+      '',
+      ''
+  ]
+
+
+SPUpdate
+
+
+SPDebugInfo!
+
+
+
+[[custom_plugins]]
+  name = "deoplete-plugins/deoplete-jedi"    OK     jedi update
+
+
+
+
+[[custom_plugins]]
+  name ="davidhalter/jedi-vim"
+
+
+[[custom_plugins]]
+  name ="Shougo/deoplete.nvim"
+
+
+deoplete-plugins/deoplete-jedi
+
+lua:   sudo apt install vim-nox  
+
+git config --global --list
+git config --global url."https://github.com.cnpmjs.org/".insteadOf https://github.com/
+
+
+ipython 7.19.0 
+pip install jedi==0.17
+pip install parso==0.7
+
+
+vim /etc/sysconfig/network-scripts/ifcfg-ens33
+service network restart
+
+
+vim .bashrc
+PS1='\[\e[32;40m\][\[\e[31;40m\]\u\[\e[36;40m\]@\[\e[35;40m\]\h \[\e[33;40m\]\w \[\e[32;40m\]]$ '
+
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;35;01m\]\u\[\033[00;00;01m\]@\[\033[01;35;01m\]\h\[\033[00;31;01m\]:\[\033[00;00;01m\]\w \[\033[01;32;01m\]\$ \[\033[01;01;01m\]'
+
+source .bashrc
+
+
+python3 ./generate.py --length=100 --nsamples=1 --prefix='今天天气不错' --tokenizer_path model/tongyong/vocab.txt    --model_path model/tongyong  --model_config model/tongyong/config.json --fast_pattern --save_samples --save_samples_path=./dist
+
+conda install -c anaconda ipython
+
+
+
+config:
+{
+  "architectures": [
+    "BertForMaskedLM"                           # 模型的名称
+  ],
+  "attention_probs_dropout_prob": 0.1,          # 注意力机制的 dropout，默认为0.1
+  "directionality": "bidi",                     # 文字编码方向采用bidi算法
+  "hidden_act": "gelu",                         # 编码器内激活函数，默认"gelu"，还可为"relu"、"swish"或 "gelu_new"
+  "hidden_dropout_prob": 0.1,                   # 词嵌入层或编码器的 dropout，默认为0.1
+  "hidden_size": 768,                           # 编码器内隐藏层神经元数量，默认768
+  "initializer_range": 0.02,                    # 神经元权重的标准差，默认为0.02
+  "intermediate_size": 3072,                    # 编码器内全连接层的输入维度，默认3072
+  "layer_norm_eps": 1e-12,                      # layer normalization 的 epsilon 值，默认为 1e-12
+  "max_position_embeddings": 512,               # 模型使用的最大序列长度，默认为512
+  "model_type": "bert",                         # 模型类型是bert
+  "num_attention_heads": 12,                    # 编码器内注意力头数，默认12
+  "num_hidden_layers": 12,                      # 编码器内隐藏层层数，默认12
+  "pad_token_id": 0,                            # pad_token_id 未找到相关解释
+  "pooler_fc_size": 768,                        # 下面应该是pooler层的参数，本质是个全连接层，作为分类器解决序列级的NLP任务
+  "pooler_num_attention_heads": 12,             # pooler层注意力头，默认12
+  "pooler_num_fc_layers": 3,                    # pooler 连接层数，默认3
+  "pooler_size_per_head": 128,                  # 每个注意力头的size
+  "pooler_type": "first_token_transform",       # pooler层类型，网上介绍很少
+  "type_vocab_size": 2,                         # 词汇表类别，默认为2
+  "vocab_size": 21128                           # 词汇数，bert默认30522，这是因为bert以中文字为单位进入输入
+}

@@ -123,6 +123,21 @@
           }
         },
         
+        {
+          "scope": "entity.name.type.class.python",
+          "settings": {
+            "foreground": "#d6e738fd",
+            "fontStyle": "italic bold"
+          }
+        },
+        {
+          "scope": "entity.other.inherited-class.python",
+          "settings": {
+            "foreground": "#d6e738fd",
+            "fontStyle": "italic bold"
+          }
+        },
+        
       ],
     },
   },

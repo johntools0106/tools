@@ -112,7 +112,7 @@ SPDebugInfo!
 
 UpdateRemotePlugins
 
-
+安装python3 pip 并加入系统环境配置 安装pip install neovim pynvim (conda)
 
 [[custom_plugins]]
   name = "deoplete-plugins/deoplete-jedi"    OK     jedi update

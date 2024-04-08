@@ -1,9 +1,6 @@
 githubnote@yandex.com    https://gitee.com/   https://github.com/
 git 147258qw!
 
-mrneleussur@usa.com  159753QW0037ASqw! payoneer Copy and save the following recovery code to a safe place:  64JLBQML
-
-crystalcpp@protonmail.com  159753qwAS! 147258qwAS! PAYPAL
 
 wget http://www.alidns.com/public/soft/SetAliDNS.sh -O SetAliDNS.sh %26%26 chmod +x SetAliDNS.sh %26%26 sudo ./SetAliDNS.sh
 sudo ./SetAliDNS.sh restore
@@ -12,24 +9,6 @@ sudo ./SetAliDNS.sh restore
 
 
 
-workbytime@tutanota.com 159753qw 
-
-e20b
-c701
-659b
-3877
-f8cf
-6ff6
-e822
-0819
-045a
-b916
-2a11
-25d9
-7b43
-dfab
-f95b
-d481
 
 
 pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple jedi --upgrade
@@ -85,7 +64,7 @@ deoplete-plugins/deoplete-jedi
 lua:   sudo apt install vim-nox  
 
 git config --global --list
-git config --global url."https://github.com.cnpmjs.org/".insteadOf https://github.com/
+git config --global url."https://hgithub.xyz.cnpmjs.org/".insteadOf https://github.com/
 
 
 ipython 7.19.0 
